@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emanuel Barreto | Técnico em Informática & Suporte</title>
+
+    <!-- CSS do Bootstrap 5 via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Ícones do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS personalizado (Separado) -->
+    <link rel="stylesheet" href="assets/css/portifolio.css">
+</head>
+
+<body>
+
+    <!-- 1. BARRA DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-slate sticky-top border-bottom border-secondary border-opacity-25" aria-label="Navegação Principal">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4 text-white" href="#inicio">
+                Emanuel<span class="text-accent">.Barreto</span>
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-medium gap-lg-2">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#objetivo">Objetivo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#atuacao">Atuação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencias">Experiências</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <section id="inicio" class="hero-section bg-dark-slate text-white py-5">
+        <div class="container py-lg-4">
+            <div class="row align-items-center g-5">
+
+                <!-- TEXTO DE APRESENTAÇÃO -->
+                <div class="col-lg-7 text-center text-lg-start">
+                    <span class="badge badge-hero px-3 py-2 rounded-pill text-accent fw-semibold mb-3">
+                        <i class="bi bi-geo-alt-fill me-1" aria-hidden="true"></i> Araçatuba - SP | Senac 2025-2026
+                    </span>
+
+                    <h1 class="hero-title fw-bold lh-sm mb-4">
+                        Suporte técnico, <span class="text-accent">manutenção de TI</span> e infraestrutura.
+                    </h1>
+
+                    <p class="lead text-slate-300 mb-4 max-w-650 mx-auto mx-lg-0">
+                        Estudante de Técnico em Informática e Manutenção no Senac Araçatuba. Focado em otimizar recursos
+                        tecnológicos, diagnóstico de hardware, redes e suporte eficiente ao usuário.
+                    </p>
+
+                    <!-- TAGS DE ESPECIALIDADE -->
+                    <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start mb-4">
+                        <span class="tag-pill"><i class="bi bi-cpu me-1" aria-hidden="true"></i> Hardware & Formatação</span>
+                        <span class="tag-pill"><i class="bi bi-diagram-3 me-1" aria-hidden="true"></i> Redes & Cisco</span>
+                        <span class="tag-pill"><i class="bi bi-headset me-1" aria-hidden="true"></i> Suporte ao Usuário</span>
+                    </div>
+
+                    <!-- BOTÕES DE AÇÃO -->
+                    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                        <a href="#contato" class="btn btn-accent btn-lg px-4 fw-semibold shadow-sm">
+                            <i class="bi bi-briefcase me-2" aria-hidden="true"></i>Oportunidades de Estágio
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=5518997991761&text=Ol%C3%A1%20Emanuel,%20vi%20seu%20portf%C3%B3lio!"
+                            target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg px-4 fw-semibold">
+                            <i class="bi bi-whatsapp me-2" aria-hidden="true"></i>Falar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD DE PERFIL -->
+                <div class="col-lg-5 text-center">
+                    <div class="hero-card-frame p-4 bg-dark-card rounded-4 shadow-lg border border-secondary border-opacity-25">
+                        <div class="foto-wrapper overflow-hidden rounded-circle mb-3 mx-auto shadow"
+                            style="width: 200px; height: 200px; border: 4px solid #c084fc;">
+                            <img src="assets/img/Capturar.png" 
+                                 alt="Foto de Emanuel Barreto Da Silva" 
+                                 class="img-fluid w-100 h-100" 
+                                 style="object-fit: cover; object-position: center 20%;">
+                        </div>
+                        <h4 class="fw-bold mb-1 text-white">Emanuel Barreto Da Silva</h4>
+                        <p class="text-slate-400 small mb-3">Estudante de TI (Senac Araçatuba)</p>
+
+                        <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2 rounded-pill">
+                            <i class="bi bi-circle-fill fs-6 me-1" aria-hidden="true"></i> Buscando Estágio em Suporte
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. OBJETIVO PROFISSIONAL -->
+    <section id="objetivo" class="py-5 bg-white border-bottom">
+        <div class="container py-3">
+            <div class="max-w-850 mx-auto bg-light-section p-4 p-md-5 rounded-4 border">
+                <span class="section-category text-uppercase fw-bold text-accent">Objetivo de Carreira</span>
+                <h3 class="fw-bold text-slate-900 mt-1 mb-3">Estagiário de Suporte Técnico e Organização</h3>
+                <p class="text-muted leading-relaxed mb-0 fs-5">
+                    "Pretendo atuar como Estagiário de Suporte Técnico e Organização, aplicando meus conhecimentos em
+                    Hardware, sistemas operacionais e redes desenvolvidos ao longo do curso técnico no Senac Araçatuba
+                    para otimizar os recursos tecnológicos da empresa."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. COMPETÊNCIAS PRÁTICAS -->
+    <section id="atuacao" class="py-5 bg-light-section">
+        <div class="container py-4">
+            <div class="mb-5">
+                <span class="section-category text-uppercase fw-bold text-accent">Competências Práticas</span>
+                <h2 class="section-title fw-bold text-slate-900 mt-1">Habilidades funcionais & atendimento</h2>
+                <p class="text-muted max-w-700">
+                    Conhecimentos técnicos adquiridos em laboratório e preparados para aplicação no ambiente corporativo.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 p-4 border-0 rounded-4 bg-white shadow-sm">
+                        <div class="icon-box bg-accent-subtle text-accent rounded-3 mb-4">
+                            <i class="bi bi-pc-display fs-3" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="fw-bold text-slate-900 mb-3 fs-5">Manutenção & Hardware</h4>
+                        <p class="text-muted small leading-relaxed mb-0">
+                            Montagem, diagnóstico de falhas de hardware e software, formatação, instalação de
+                            periféricos e sistemas operacionais (Windows e Linux).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 p-4 border-0 rounded-4 bg-white shadow-sm">
+                        <div class="icon-box bg-success-subtle text-success rounded-3 mb-4">
+                            <i class="bi bi-diagram-3 fs-3" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="fw-bold text-slate-900 mb-3 fs-5">Redes & Virtualização</h4>
+                        <p class="text-muted small leading-relaxed mb-0">
+                            Conhecimento básico em arquitetura de redes, simulação de infraestruturas no <strong>Cisco Packet Tracer</strong> e ambientes com <strong>Oracle VirtualBox</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 p-4 border-0 rounded-4 bg-white shadow-sm">
+                        <div class="icon-box bg-warning-subtle text-warning rounded-3 mb-4">
+                            <i class="bi bi-people fs-3" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="fw-bold text-slate-900 mb-3 fs-5">Suporte & Comunicação</h4>
+                        <p class="text-muted small leading-relaxed mb-0">
+                            Capacidade de ouvir ativamente as dúvidas dos usuários, traduzindo conceitos técnicos de
+                            forma simples e clara, garantindo autonomia e atendimento empático.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. EXPERIÊNCIAS E EVENTOS -->
+    <section id="experiencias" class="py-5 bg-white border-top border-bottom">
+        <div class="container py-4">
+            <div class="mb-5">
+                <span class="section-category text-uppercase fw-bold text-accent">Vivência Prática (2025 - 2026)</span>
+                <h2 class="section-title fw-bold text-slate-900 mt-1">Experiências & Eventos Acadêmicos</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="p-4 bg-light-section rounded-4 border h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box bg-primary-subtle text-primary rounded-3 me-3">
+                                <i class="bi bi-building fs-4" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h4 class="fw-bold text-slate-900 mb-0 fs-5">Senac Araçatuba</h4>
+                                <small class="text-muted">Formação Prática (2025 - 2026)</small>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled text-muted small leading-relaxed mb-0">
+                            <li class="mb-2"><i class="bi bi-check2-circle text-accent me-2" aria-hidden="true"></i><strong>Prática de Laboratório:</strong> Montagem, diagnóstico e manutenção preventiva.</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle text-accent me-2" aria-hidden="true"></i><strong>Sistemas Operacionais:</strong> Instalação e configuração de Windows e Linux.</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle text-accent me-2" aria-hidden="true"></i><strong>Simulações de Atendimento:</strong> Prática de suporte ao cliente e chamados.</li>
+                            <li class="mb-0"><i class="bi bi-check2-circle text-accent me-2" aria-hidden="true"></i><strong>Ferramentas de Redes:</strong> Práticas no Cisco Packet Tracer e VirtualBox.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="p-4 bg-light-section rounded-4 border h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box bg-warning-subtle text-warning rounded-3 me-3">
+                                <i class="bi bi-trophy fs-4" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h4 class="fw-bold text-slate-900 mb-0 fs-5">Eventos & Imersões Técnicas</h4>
+                                <small class="text-muted">Participação e Projetos Integradores</small>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled text-muted small leading-relaxed mb-0">
+                            <li class="mb-2"><i class="bi bi-controller text-warning me-2" aria-hidden="true"></i><strong>Projeto Fliperama (2026):</strong> Desenvolvido para o programa Empreenda Senac.</li>
+                            <li class="mb-2"><i class="bi bi-star text-warning me-2" aria-hidden="true"></i><strong>Evento ANPTECH (2026):</strong> Participação em imersão de inovação e tecnologia.</li>
+                            <li class="mb-2"><i class="bi bi-door-open text-warning me-2" aria-hidden="true"></i><strong>Casa Aberta Senac (2025):</strong> Apresentação de projetos e monitoria técnica.</li>
+                            <li class="mb-0"><i class="bi bi-building-up text-warning me-2" aria-hidden="true"></i><strong>Visita Técnica CLARO (2026):</strong> Imersão prática em infraestrutura e telecom.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PROJETOS -->
+    <section id="projetos" class="py-5 bg-light-section">
+        <div class="container py-4">
+            <div class="mb-5">
+                <span class="section-category text-uppercase fw-bold text-accent">Portfólio de Atividades</span>
+                <h2 class="section-title fw-bold text-slate-900 mt-1">Projetos & Laboratório Prático</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 border-0 rounded-4 bg-white shadow-sm p-4 d-flex flex-column">
+                        <div class="icon-box bg-danger-subtle text-danger rounded-3 mb-3">
+                            <i class="bi bi-controller fs-4" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="fw-bold text-slate-900 fs-5">Projeto Fliperama 2026</h5>
+                        <p class="text-muted small leading-relaxed mb-3">
+                            Projeto desenvolvido para o evento Empreenda Senac, unindo hardware, emulação e estrutura física.
+                        </p>
+                        <div class="d-flex flex-wrap gap-1 mb-0 mt-auto">
+                            <span class="badge bg-secondary-subtle text-secondary">Empreenda Senac</span>
+                            <span class="badge bg-secondary-subtle text-secondary">Hardware</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 border-0 rounded-4 bg-white shadow-sm p-4 d-flex flex-column">
+                        <div class="icon-box bg-info-subtle text-info rounded-3 mb-3">
+                            <i class="bi bi-cpu fs-4" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="fw-bold text-slate-900 fs-5">Laboratório de Redes & VM</h5>
+                        <p class="text-muted small leading-relaxed mb-3">
+                            Simulação de topologia de redes no Cisco Packet Tracer e criação de Máquinas Virtuais no Oracle VirtualBox.
+                        </p>
+                        <div class="d-flex flex-wrap gap-1 mb-0 mt-auto">
+                            <span class="badge bg-info-subtle text-info">Cisco</span>
+                            <span class="badge bg-info-subtle text-info">VirtualBox</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-hover h-100 border-0 rounded-4 bg-white shadow-sm p-4 d-flex flex-column">
+                        <div class="icon-box bg-success-subtle text-success rounded-3 mb-3">
+                            <i class="bi bi-code-slash fs-4" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="fw-bold text-slate-900 fs-5">Interfaces Web Responsivas</h5>
+                        <p class="text-muted small leading-relaxed mb-3">
+                            Criação de páginas web institucionais e portfólios utilizando HTML5, CSS3 e Bootstrap 5.
+                        </p>
+                        <div class="d-flex flex-wrap gap-1 mb-0 mt-auto">
+                            <span class="badge bg-success-subtle text-success">HTML</span>
+                            <span class="badge bg-success-subtle text-success">CSS</span>
+                            <span class="badge bg-success-subtle text-success">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. HABILIDADES SECUNDÁRIAS -->
+    <section class="py-4 bg-white border-top border-bottom">
+        <div class="container text-center">
+            <h5 class="fw-bold text-slate-900 mb-3 fs-6 text-uppercase tracking-wide">Outras Ferramentas & Idiomas</h5>
+            <div class="d-flex flex-wrap justify-content-center gap-2">
+                <span class="badge bg-light text-dark border p-2 px-3 fw-normal"><i class="bi bi-file-earmark-excel text-success me-1" aria-hidden="true"></i> Excel</span>
+                <span class="badge bg-light text-dark border p-2 px-3 fw-normal"><i class="bi bi-file-earmark-word text-primary me-1" aria-hidden="true"></i> Word</span>
+                <span class="badge bg-light text-dark border p-2 px-3 fw-normal"><i class="bi bi-people-fill text-warning me-1" aria-hidden="true"></i> Trabalho em Equipe</span>
+                <span class="badge bg-light text-dark border p-2 px-3 fw-normal"><i class="bi bi-translate me-1" aria-hidden="true"></i> Inglês Básico</span>
+                <span class="badge bg-light text-dark border p-2 px-3 fw-normal"><i class="bi bi-translate me-1" aria-hidden="true"></i> Espanhol Básico</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. SEÇÃO DE CONTATO -->
+    <section id="contato" class="py-5 bg-light-section">
+        <div class="container py-4">
+            <div class="max-w-850 mx-auto bg-white p-4 p-md-5 rounded-4 border shadow-sm">
+                <div class="text-center mb-4">
+                    <span class="section-category text-uppercase fw-bold text-accent">Contato Direto</span>
+                    <h2 class="fw-bold display-6 text-slate-900 mt-1">Vamos conversar sobre oportunidades?</h2>
+                    <p class="text-muted small">Entre em contato para oportunidades de estágio, projetos ou suporte em TI.</p>
+                </div>
+
+                <!-- CANAIS DE CONTATO (4 CARDS ALINHADOS) -->
+                <div class="row g-3 mb-4 text-center">
+                    <!-- WHATSAPP -->
+                    <div class="col-6 col-md-3">
+                        <a href="https://api.whatsapp.com/send?phone=5518997991761&text=Ol%C3%A1%20Emanuel,%20vi%20seu%20portf%C3%B3lio!" 
+                           target="_blank" rel="noopener noreferrer" 
+                           class="text-decoration-none d-block p-3 bg-light rounded-3 border card-hover text-dark h-100">
+                            <i class="bi bi-whatsapp text-accent fs-3 d-block mb-1" aria-hidden="true"></i>
+                            <strong class="d-block text-slate-900 small">WhatsApp</strong>
+                            <span class="text-muted small d-none d-sm-block">(18) 99799-1761</span>
+                        </a>
+                    </div>
+
+                    <!-- E-MAIL -->
+                    <div class="col-6 col-md-3">
+                        <a href="mailto:manelzx2030@gmail.com" 
+                           class="text-decoration-none d-block p-3 bg-light rounded-3 border card-hover text-dark h-100">
+                            <i class="bi bi-envelope-at text-accent fs-3 d-block mb-1" aria-hidden="true"></i>
+                            <strong class="d-block text-slate-900 small">E-mail</strong>
+                            <span class="text-muted small text-break d-none d-sm-block">manelzx2030</span>
+                        </a>
+                    </div>
+
+                    <!-- INSTAGRAM -->
+                    <div class="col-6 col-md-3">
+                        <a href="https://www.instagram.com/yuckfqr____?igsh=MTZsNGwweG9qN203NQ%3D%3D" 
+                           target="_blank" rel="noopener noreferrer" 
+                           class="text-decoration-none d-block p-3 bg-light rounded-3 border card-hover text-dark h-100">
+                            <i class="bi bi-instagram text-accent fs-3 d-block mb-1" aria-hidden="true"></i>
+                            <strong class="d-block text-slate-900 small">Instagram</strong>
+                            <span class="text-muted small d-none d-sm-block">@yuckfqr____</span>
+                        </a>
+                    </div>
+
+                    <!-- FACEBOOK -->
+                    <div class="col-6 col-md-3">
+                        <a href="https://www.facebook.com/share/19Ri3vBtsG/" 
+                           target="_blank" rel="noopener noreferrer" 
+                           class="text-decoration-none d-block p-3 bg-light rounded-3 border card-hover text-dark h-100">
+                            <i class="bi bi-facebook text-accent fs-3 d-block mb-1" aria-hidden="true"></i>
+                            <strong class="d-block text-slate-900 small">Facebook</strong>
+                            <span class="text-muted small d-none d-sm-block">Emanuel Barret</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- FORMULÁRIO -->
+                <form action="https://api.whatsapp.com/send" method="GET" target="_blank">
+                    <input type="hidden" name="phone" value="5518997991761">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputNome" class="form-label fw-medium small text-slate-900">Seu Nome / Empresa</label>
+                            <input type="text" id="inputNome" class="form-control rounded-3" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputTel" class="form-label fw-medium small text-slate-900">Telefone para Contato</label>
+                            <input type="tel" id="inputTel" class="form-control rounded-3" placeholder="(00) 00000-0000">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputMsg" class="form-label fw-medium small text-slate-900">Mensagem ou Proposta de Estágio</label>
+                            <textarea id="inputMsg" name="text" class="form-control rounded-3" rows="3" placeholder="Escreva aqui os detalhes..." required></textarea>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <button type="submit" class="btn btn-accent btn-lg px-5 fw-semibold shadow-sm w-100 w-sm-auto">
+                                <i class="bi bi-send me-2" aria-hidden="true"></i>Enviar mensagem
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="py-4 bg-dark-slate text-slate-400 border-top border-secondary border-opacity-25">
+        <div class="container text-center text-md-between d-md-flex align-items-center">
+            <p class="mb-0 small">&copy; 2026 Emanuel Barreto Da Silva. Todos os direitos reservados.</p>
+            <p class="mb-0 small mt-2 mt-md-0">Araçatuba - SP | Senac 2025-2026</p>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+    <a href="https://api.whatsapp.com/send?phone=5518997991761&text=Ol%C3%A1%20Emanuel,%20vi%20seu%20portf%C3%B3lio!"
+        class="btn-whatsapp-float" target="_blank" rel="noopener noreferrer" title="Falar no WhatsApp" aria-label="Falar no WhatsApp">
+        <i class="bi bi-whatsapp fs-5" aria-hidden="true"></i>
+        <span class="d-none d-sm-inline ms-2">WhatsApp</span>
+    </a>
+
+    <!-- JS do Bootstrap via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

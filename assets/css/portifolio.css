@@ -1,0 +1,164 @@
+/* =======================================================
+   PORTFÓLIO PROFISSIONAL - EMANUEL BARRETO
+   Estilo: Cyber Onyx & Electric Neon Violet
+======================================================== */
+
+/* ROLAGEM SUAVE COM MARGEM PARA A NAVBAR FIXA */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: #334155;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* PALETA ULTRA ESCURA & NEON */
+.bg-dark-slate {
+    background-color: #08090c !important; 
+}
+
+.bg-dark-card {
+    background-color: #12141d !important; 
+}
+
+.bg-light-section {
+    background-color: #f8fafc !important; 
+}
+
+/* COR DE DESTAQUE NEON VIOLET */
+.text-accent {
+    color: #c084fc !important; 
+    text-shadow: 0 0 12px rgba(192, 132, 252, 0.25);
+}
+
+.text-slate-300 {
+    color: #cbd5e1 !important;
+}
+
+.text-slate-400 {
+    color: #94a3b8 !important;
+}
+
+.text-slate-900 {
+    color: #08090c !important;
+}
+
+/* TYPOGRAPHY RESPONSIVA PARA DISPOSITIVOS MÓVEIS */
+.hero-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.section-title {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+}
+
+/* CATEGORIAS & BADGES DE DESTAQUE */
+.section-category {
+    font-size: 0.85rem;
+    letter-spacing: 1.2px;
+}
+
+.badge-hero {
+    background-color: rgba(168, 85, 247, 0.15);
+    border: 1px solid rgba(192, 132, 252, 0.4);
+    color: #c084fc !important;
+}
+
+.tag-pill {
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #f1f5f9;
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    border: 1px solid rgba(192, 132, 252, 0.25);
+}
+
+/* BOTÕES CUSTOMIZADOS E INTERAÇÕES */
+.btn-accent {
+    background-color: #8b5cf6;
+    color: #ffffff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-accent:hover, .btn-accent:focus {
+    background-color: #7c3aed;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4);
+}
+
+/* FORMULÁRIO COM BORDA NEON AO FOCAR */
+.form-control:focus {
+    border-color: #a855f7;
+    box-shadow: 0 0 0 0.25rem rgba(168, 85, 247, 0.25);
+}
+
+/* ÍCONES DENTRO DE CAIXAS COLORIDAS */
+.icon-box {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.bg-accent-subtle {
+    background-color: #f3e8ff !important;
+    color: #7c3aed !important;
+}
+
+/* CARDS COM ELEVAÇÃO SUAVE NO HOVER */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(8, 9, 12, 0.08) !important;
+}
+
+/* BOTÃO FLUTUANTE DO WHATSAPP (RESPONSIVO) */
+.btn-whatsapp-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background-color: #25d366;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.35);
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-whatsapp-float:hover {
+    color: #ffffff;
+    transform: scale(1.06);
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.5);
+}
+
+/* AJUSTE DO BOTÃO FLUTUANTE PARA MOBILE */
+@media (max-width: 576px) {
+    .btn-whatsapp-float {
+        padding: 14px;
+        border-radius: 50%;
+        bottom: 18px;
+        right: 18px;
+    }
+}
+
+/* UTILITÁRIOS DE LARGURA */
+.max-w-650 { max-width: 650px; }
+.max-w-700 { max-width: 700px; }
+.max-w-850 { max-width: 850px; }
